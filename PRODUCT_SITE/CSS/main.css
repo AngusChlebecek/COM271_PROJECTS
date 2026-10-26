@@ -22,7 +22,7 @@ a{
     text-decoration: none;
 }
 a:visited{
-    color: blueviolet;
+    color: rgb(79, 24, 130);
 }
 a:hover{
     color: red;
