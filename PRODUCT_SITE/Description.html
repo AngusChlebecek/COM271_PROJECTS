@@ -60,15 +60,33 @@
         src="https://www.youtube.com/embed/rvj2eyAnCSA"></iframe>
             </div>
         <hr>
-            <div class="textbox">
-                <textarea name="Comments" rows="10">Leave us some feedback</textarea>
+            <div class="user_type">
+                <form id="user_type">
+        
+                    <legend>Are you a(n)...</legend>
+                    
+                    <div class="form-group">
+                        <input type="radio" id="artist" name="choice" value="Artist">
+                        <label for="artist">Artist</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="radio" id="venue" name="choice" value="Venue">
+                        <label for="venue">Venue</label>
+                    </div>
+
+                    <button type="submit">Submit</button>
+            
+                </form>
             </div>
+            <p id="result"></p>
         <hr>
-        <h2 class="heading">Contact</h2>   <!--Extra links (they don't actually work yet.  The other pages don't exist yet)-->
+        <h2 class="heading">Contact</h2>
         <p>
             <a href="https://mail.google.com/mail/u/0/#inbox">Email: angus.chlebecek@uri.edu</a>
         </p>
     </div>
+     <script src="js/data_input.js"></script>
 </body>
 
 </html>
