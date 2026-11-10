@@ -73,6 +73,10 @@ a:hover{
     display: flex;
     justify-content: center;;
 }
+.use_or_not{
+    display: flex;
+    justify-content: center;;
+}
 
 ul {
   display: table;

@@ -6,8 +6,6 @@
 
         document.getElementById('user_type').addEventListener('submit', function(event) {
             event.preventDefault(); 
-            
-            // 2. Find the checked radio button within the 'topping' group
             const selectedRadio = document.querySelector('input[name="choice"]:checked');
             
             if (selectedRadio) {
