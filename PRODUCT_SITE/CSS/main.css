@@ -36,6 +36,10 @@ a:hover{
  overflow: hidden;
  padding: 5px;
  }
+.header p{
+justify-content: center;
+font-weight:bold;
+ }
 .header a{
  float: left;
  font-family: 'Times New Roman', Times, serif;
