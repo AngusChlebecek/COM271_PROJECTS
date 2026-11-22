@@ -31,6 +31,29 @@ a:hover{
     color: red;
 }
 
+.button{
+    text-align: center;
+}
+
+.btn {
+
+    display: inline-block;
+    padding: 24px 48px;
+    background-color:blue;
+    color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    color: red;
+}
+
 .header{
  background-color:rgb(183, 182, 189);
  overflow: hidden;

@@ -23,3 +23,22 @@ document.getElementById('use_or_not').addEventListener('submit', function(event)
     
     document.getElementById('result').textContent = message;
 });
+
+const form = document.getElementById('use_or_not');
+
+
+form.addEventListener('focusin', (event) => {
+  if (event.target.type === 'radio') {
+    const groupName = event.target.name;
+    const msgBox = document.getElementById(`msg-${groupName}`);
+    msgBox.textContent = `(Use arrow keys to choose)`;
+  }
+});
+
+form.addEventListener('focusout', (event) => {
+  if (event.target.type === 'radio') {
+    const groupName = event.target.name;
+    const msgBox = document.getElementById(`msg-${groupName}`);
+    msgBox.textContent = `(Please make a selection)`;
+  }
+});
